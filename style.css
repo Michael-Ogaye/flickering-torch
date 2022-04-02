@@ -1,11 +1,27 @@
 body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 canvas{
-    background: white;
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    
+}
+.brand img{
+    width: 25vw;
+    height: 20vw;
+}
+.ins{
+    color: white;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+.ins h4{
+    color: red;
+    text-decoration: whitesmoke;
 }
